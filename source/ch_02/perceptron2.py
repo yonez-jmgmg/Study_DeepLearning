@@ -1,7 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
-
 def perceptron(b, w1, w2, x1, x2):
     v = b + w1 * x1 + w2 * x2
     if v <= 0:

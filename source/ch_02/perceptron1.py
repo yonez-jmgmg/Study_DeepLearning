@@ -1,7 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
-
 def perceptron(theta, w1, w2, x1, x2):
     evaluation = w1 * x1 + w2 * x2
     if evaluation <= theta:
