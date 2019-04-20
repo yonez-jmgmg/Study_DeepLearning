@@ -34,7 +34,7 @@ for i in range(iters_num):
     train_loss_list.append(loss)
 
     if i % iter_per_epoch == 0:
-        print("Loop number: " + str(i))
+        print('【Loop Number: ' + str(i) + '】')
         train_acc = network.accuracy(x_train, t_train)
         test_acc = network.accuracy(x_test, t_test)
         train_acc_list.append(train_acc)

@@ -158,6 +158,3 @@ def test():
     re = ReluLayer()
     print(re.forward(np.array([2, 1, 0, -5, 4])))
     print(re.backward(np.array([1, 1, 1, 1, 1])))
-
-
-test()
